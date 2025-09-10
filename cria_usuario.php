@@ -7,7 +7,8 @@ require("connector.php");
         $query = "INSERT INTO tblpessoa (nome, sobrenome) VALUES ('$nome', '$sobrenome')";
 
         $stmt = $pdo->prepare($query);
-        $stmt->execute;
+        $stmt->execute();
 
         header("Location: index.php?criado=sucesso");
+
     }
