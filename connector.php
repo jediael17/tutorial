@@ -1,6 +1,6 @@
 <?php
 
-$usuario = 'root';
+$usuario = 'admin_inventario';
 $senha = 'webserver';
 $dbname = 'dbtutorial';
 $host = '192.168.121.33';
@@ -11,3 +11,4 @@ try{
     echo $e->getMessage();
 
 }
+
